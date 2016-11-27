@@ -21,6 +21,8 @@ hi LineNr ctermfg=darkgray ctermbg=NONE cterm=NONE
 hi VertSplit ctermfg=234 ctermbg=234 cterm=NONE
 hi StatusLine ctermfg=248 ctermbg=234 cterm=NONE
 hi StatusLineNC ctermfg=240 ctermbg=234 cterm=NONE
+" hi StatusLine ctermfg=250 ctermbg=60 cterm=NONE
+" hi StatusLineNC ctermfg=16 ctermbg=60 cterm=NONE
 
 hi Folded ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Title ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -133,9 +135,15 @@ hi link csXmlTag Keyword
 
 " Special for PHP
 
-" petro
-hi clear SpellBad
-hi SpellBad cterm=underline
+" Spelling
+highlight clear SpellBad
+highlight SpellBad term=standout ctermfg=1 term=underline cterm=underline
+highlight clear SpellCap
+highlight SpellCap term=underline cterm=underline
+highlight clear SpellRare
+highlight SpellRare term=underline cterm=underline
+highlight clear SpellLocal
+highlight SpellLocal term=underline cterm=underline
 
 
 hi pythonException ctermfg=137
