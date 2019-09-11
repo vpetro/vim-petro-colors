@@ -133,8 +133,6 @@ hi link pythonEscape Keyword
 hi link csXmlTag Keyword
 
 
-" Special for PHP
-
 " Spelling
 highlight clear SpellBad
 highlight SpellBad term=standout ctermfg=1 term=underline cterm=underline
@@ -171,3 +169,8 @@ hi scalaTypeDeclaration ctermfg=136 ctermbg=none cterm=none
 hi scalaSquareBrackets ctermfg=blue ctermbg=none cterm=none
 hi scalaSquareBracketsBrackets ctermfg=137 ctermbg=none cterm=none
 hi scalaKeywordModifier ctermfg=95 ctermbg=none cterm=none
+
+" markdown
+hi markdownH1 ctermfg=13 ctermbg=none cterm=none
+hi markdownH2 ctermfg=12 ctermbg=none cterm=none
+hi markdownH3 ctermfg=74 ctermbg=none cterm=none
