@@ -33,7 +33,7 @@ hi SpecialKey ctermfg=NONE ctermbg=NONE cterm=NONE
 hi WildMenu ctermfg=black ctermbg=yellow cterm=NONE
 
 " completion menu
-hi Pmenu ctermbg=None ctermfg=250
+hi Pmenu ctermbg=235 ctermfg=250
 hi PmenuSel ctermbg=235
 hi PmenuSbar ctermbg=NONE
 hi PmenuThumb ctermbg=None
